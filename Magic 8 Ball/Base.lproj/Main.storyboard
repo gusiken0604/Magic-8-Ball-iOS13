@@ -26,14 +26,15 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7CU-i7-XON">
                                 <rect key="frame" x="87" y="244" width="240" height="211"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="211" id="vWY-Fx-cca"/>
+                                    <constraint firstAttribute="height" constant="211" id="cOa-VX-mSl"/>
+                                    <constraint firstAttribute="width" constant="240" id="pFA-0I-G08"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DeT-fJ-sou">
-                                <rect key="frame" x="136" y="633" width="142" height="70"/>
+                                <rect key="frame" x="162.5" y="633" width="89" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="jnD-T7-yUt"/>
+                                    <constraint firstAttribute="height" constant="70" id="i1d-YH-PuG"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Ask">
@@ -47,14 +48,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                         <constraints>
-                            <constraint firstItem="DeT-fJ-sou" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="BqX-BY-qyh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DeT-fJ-sou" secondAttribute="bottom" constant="159" id="Cnp-bD-zOC"/>
-                            <constraint firstItem="DeT-fJ-sou" firstAttribute="centerX" secondItem="7CU-i7-XON" secondAttribute="centerX" id="Nr5-4J-HWK"/>
-                            <constraint firstItem="DeT-fJ-sou" firstAttribute="centerX" secondItem="QlA-xs-BLv" secondAttribute="centerX" id="QS0-Sp-h0h"/>
-                            <constraint firstItem="7CU-i7-XON" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="244" id="S9p-NZ-c88"/>
-                            <constraint firstItem="7CU-i7-XON" firstAttribute="top" secondItem="QlA-xs-BLv" secondAttribute="bottom" constant="91" id="WJD-Sm-zut"/>
-                            <constraint firstItem="7CU-i7-XON" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="aTc-5R-p69"/>
-                            <constraint firstItem="DeT-fJ-sou" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fTc-OL-ged"/>
+                            <constraint firstItem="7CU-i7-XON" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Pa-WR-bb8"/>
+                            <constraint firstItem="7CU-i7-XON" firstAttribute="top" secondItem="QlA-xs-BLv" secondAttribute="bottom" constant="91" id="JSd-5P-g9P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DeT-fJ-sou" secondAttribute="bottom" constant="159" id="TN4-QD-Msb"/>
+                            <constraint firstItem="QlA-xs-BLv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TQX-4z-0fk"/>
+                            <constraint firstItem="QlA-xs-BLv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="Uq6-nm-cfm"/>
+                            <constraint firstItem="7CU-i7-XON" firstAttribute="centerX" secondItem="DeT-fJ-sou" secondAttribute="centerX" id="Vc1-rt-bdV"/>
+                            <constraint firstItem="QlA-xs-BLv" firstAttribute="centerX" secondItem="7CU-i7-XON" secondAttribute="centerX" id="btI-Vu-iI6"/>
                         </constraints>
                     </view>
                     <connections>
